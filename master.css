@@ -108,6 +108,9 @@ body {
   border-right: 1px solid white;
 }
 
+.border-r {
+  border-right: 1px solid white;
+}
 /* BUTTONS */
 .btn {
   border-radius: 5px;
