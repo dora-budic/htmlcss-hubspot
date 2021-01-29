@@ -181,9 +181,8 @@ header nav ul li{
   margin-left: 20px;
 }
 
-header .fixed-menu ul li:first-child img{
-  width: 15px;
-  height: 15px;
+header .fixed-menu ul li:first-child i{
+  color: #29B3C7;
 }
 
 /* HEADER - SECOND NAV */
