@@ -7,3 +7,61 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
+/* LAYOUT */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+}
+
+.row {
+  margin: 0 -15px;
+}
+
+.column {
+  padding: 0 15px;
+}
+
+
+/* UTILITY */
+.w-50 {
+  width: calc(100% / 2);
+}
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.h-655 {
+  height: 655px;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+/* HEADER - FIXED MENU */
+#fixed-menu {
+  background-color: #F4F9FD;
+}
+
+
+/* HEADER - JUMBO */
+section#jumbo {
+  background-image: url('./img/jumbotron.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
