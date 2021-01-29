@@ -203,7 +203,7 @@ header nav.menu i {
 /* HEADER - JUMBO */
 section#jumbo {
   background-image: url('./img/jumbotron.png');
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -233,10 +233,14 @@ section#jumbo {
   position: relative;
 }
 
-#jumbo .line {
+#jumbo .row.line {
+  margin: 0;
+}
+
+#jumbo .column.line {
+  padding: 0;
   background-color: #AFEBE4;
-  width: 100%;
-  height: 80px;
+  height: 12%;
   position: absolute;
   bottom: 0;
   border-top: 3px solid #33475C;
