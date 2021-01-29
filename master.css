@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  color: #33475B;
 }
 
 /* LAYOUT */
@@ -55,6 +56,10 @@ body {
 
 .h-50 {
   height: 50px;
+}
+
+.h-80 {
+  height: 80px;
 }
 
 .h-100 {
@@ -126,12 +131,11 @@ body {
 }
 
 /* HEADER - FIXED MENU */
-nav {
+nav.fixed-menu {
   border-bottom: 2px solid #BFC6CA;
-  height: 80px;
 }
 
-#fixed-menu {
+header .fixed-menu {
   position: fixed;
   top: 0;
   left: 0;
@@ -141,11 +145,11 @@ nav {
   line-height: 80px;
 }
 
-#fixed-menu span.language:after {
-  content: ' \02C5';
+header nav.fixed-menu i {
+  padding-left: 5px;
 }
 
-#fixed-menu span.language {
+header .fixed-menu span.language {
   border-right: 2px solid #BFC6CA;
   padding-right: 10px;
   margin-right: 10px;
@@ -164,18 +168,33 @@ nav ul li a {
   text-decoration: none;
 }
 
-#fixed-menu ul {
+header nav ul {
   float: right;
 }
 
-#fixed-menu ul li{
+header nav ul li{
   margin-left: 20px;
 }
 
-#fixed-menu ul li:first-child img{
+header .fixed-menu ul li:first-child img{
   width: 15px;
   height: 15px;
 }
+
+/* HEADER - SECOND NAV */
+header nav.menu {
+  margin-top: 80px;
+  line-height: 80px;
+}
+
+header nav.menu img {
+  vertical-align: middle;
+}
+
+header nav.menu i {
+  padding-left: 10px;
+}
+
 /* HEADER - JUMBO */
 section#jumbo {
   background-image: url('./img/jumbotron.png');
