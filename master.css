@@ -107,12 +107,75 @@ body {
   border-right: 1px solid white;
 }
 
-/* HEADER - FIXED MENU */
-#fixed-menu {
-  background-color: #F4F9FD;
+/* BUTTONS */
+.btn {
+  border-radius: 5px;
+  padding: 10px;
 }
 
+.btn-white {
+  background-color: #ffffff;
+  color: #FE775A;
+  border: 1px solid #FE775A;
+}
 
+.btn-red {
+  background-color: #FE775A;
+  color: #ffffff;
+  border: none;
+}
+
+/* HEADER - FIXED MENU */
+nav {
+  border-bottom: 2px solid #BFC6CA;
+  height: 80px;
+}
+
+#fixed-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #F4F9FD;
+  width: 100%;
+  line-height: 80px;
+}
+
+#fixed-menu span.language:after {
+  content: ' \02C5';
+}
+
+#fixed-menu span.language {
+  border-right: 2px solid #BFC6CA;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+nav ul {
+  display: inline-block;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+#fixed-menu ul {
+  float: right;
+}
+
+#fixed-menu ul li{
+  margin-left: 20px;
+}
+
+#fixed-menu ul li:first-child img{
+  width: 15px;
+  height: 15px;
+}
 /* HEADER - JUMBO */
 section#jumbo {
   background-image: url('./img/jumbotron.png');
