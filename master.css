@@ -34,9 +34,18 @@ body {
 
 
 /* UTILITY */
+.w-33 {
+  width: calc(100% / 3);
+}
+
 .w-50 {
   width: calc(100% / 2);
 }
+
+.w-67 {
+  width: calc((100% / 3) * 2);
+}
+
 .w-100 {
   width: 100%;
 }
@@ -45,12 +54,28 @@ body {
   height: 100%;
 }
 
+.h-300 {
+  height: 300px;
+}
+
 .h-655 {
   height: 655px;
 }
 
+.bg-lightblue {
+  background-color: #F4F9FD;
+}
+
 .bg-blue {
   background-color: blue;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.bg-yellow {
+  background-color: yellow;
 }
 
 /* HEADER - FIXED MENU */
@@ -64,4 +89,9 @@ section#jumbo {
   background-image: url('./img/jumbotron.png');
   background-size: 100%;
   background-repeat: no-repeat;
+}
+
+/* MAIN - FREE-HUBSPOT */
+#free-hubspot div.column.w-67.h-300 {
+  padding-left: 0;
 }
