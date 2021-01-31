@@ -99,6 +99,10 @@ body {
   margin-left: 20px;
 }
 
+.mt-30 {
+  margin-top: 30px;
+}
+
 .mb-40 {
   margin-bottom: 40px;
 }
@@ -140,6 +144,12 @@ body {
 .btn-red.big {
   font-size: 13px;
   padding: 20px 25px;
+}
+
+/* TYPOGRAPHY */
+.p-font {
+  font-size: 13px;
+  line-height: 25px;
 }
 
 /* HEADER - FIXED MENU */
@@ -228,10 +238,7 @@ section#jumbo {
 }
 
 #jumbo .jumbo-text p {
-  font-size: 13px;
-  margin-top: 30px;
   margin-bottom: 55px;
-  line-height: 25px;
 }
 
 #jumbo .jumbo-text span {
@@ -256,6 +263,20 @@ section#jumbo {
   bottom: 0;
   border-top: 3px solid #33475C;
   border-bottom: 3px solid #33475C;
+}
+
+/* MAIN - SLOGAN */
+#slogan {
+  text-align: center;
+  /* padding: 40px 50px 30px 50px; */
+}
+
+#slogan .content {
+  padding: 40px 155px;
+}
+
+#slogan img {
+  width: 30%;
 }
 
 /* MAIN - FREE-HUBSPOT */
