@@ -457,7 +457,6 @@ section#jumbo {
 }
 .w-19 {
   width: 19%;
-  /* margin-right: 10px; */
 }
 
 .w-18 {
@@ -487,6 +486,34 @@ section#jumbo {
 .ml-30 {
   margin-left: 30px;
 }
+
+/* MAIN - HUBSPOT-CUSTOMERS, PART2 */
+#hubspot-customers .content.growth {
+  padding-right: 85px;
+}
+
+#hubspot-customers .content.growth h2 {
+  margin: 30px 0;
+}
+
+#hubspot-customers .content.growth a {
+  display: inline-block;
+  margin: 30px 0;
+}
+
+#hubspot-customers .content.growth span {
+  font-size: 12px;
+}
+
+#hubspot-customers .content.picture {
+  position: relative;
+}
+
+#hubspot-customers .content.picture img {
+  width: 50%;
+  float: right;
+}
+
 /* FOOTER */
 footer {
   background-color: #32495B;
