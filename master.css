@@ -402,8 +402,27 @@ section#jumbo {
 
 #hubspot-community .card {
   display: inline-block;
+  padding: 20px 0;
 }
 
+#hubspot-community .card .content .number {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  vertical-align: middle;
+  margin: 10px 0;
+}
+
+#hubspot-community .card .content i {
+  font-size: 12px;
+  vertical-align: middle;
+  margin-left: 3px;
+}
+
+#hubspot-community .card .content .number-description {
+  font-size: 10px;
+}
 /* FOOTER */
 footer {
   background-color: #32495B;
