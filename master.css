@@ -150,6 +150,14 @@ body {
   padding: 20px 40px;
 }
 
+.btn-footer {
+  border-radius: 5px;
+  padding: 8px 10px;
+  font-size: 11px;
+  background-color: #DADEE0;
+  color: #32495B;
+}
+
 /* TYPOGRAPHY */
 .p-font {
   font-size: 13px;
@@ -505,10 +513,6 @@ section#jumbo {
   font-size: 12px;
 }
 
-#hubspot-customers .content.picture {
-  position: relative;
-}
-
 #hubspot-customers .content.picture img {
   width: 50%;
   float: right;
@@ -517,4 +521,52 @@ section#jumbo {
 /* FOOTER */
 footer {
   background-color: #32495B;
+}
+
+footer ul a {
+  color: #DADEE0;
+}
+
+footer .row:first-child {
+  padding-top: 30px;
+}
+
+footer .column.w-25 span {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+footer .column.w-25 ul:first-child {
+  list-style: none;
+  margin-top: 10px;
+}
+
+footer .column.w-25 a.btn-footer {
+  display: inline-block;
+  margin: 10px 0;
+}
+
+footer .social-list, footer .languages-list {
+  list-style: none;
+}
+
+footer .social-list li, footer .languages-list li {
+  display: inline-block;
+}
+
+footer .languages-list li {
+  padding-left: 30px;
+}
+
+footer .row.border-b .content {
+  text-align: center;
+}
+
+footer .social-list li {
+  margin-right: 20px;
+}
+
+footer .row.border-b {
+  margin-top: 90px;
+  padding-bottom: 10px;
 }
