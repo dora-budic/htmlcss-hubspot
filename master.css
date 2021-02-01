@@ -152,6 +152,12 @@ body {
   line-height: 25px;
 }
 
+.pf-font {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+}
+
 /* HEADER - FIXED MENU */
 nav.fixed-menu {
   border-bottom: 2px solid #BFC6CA;
@@ -305,10 +311,7 @@ section#jumbo {
   margin-bottom: 25px;
 }
 
-#free-hubspot .column.w-55 .content span {
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 14px;
+#free-hubspot .column.w-55 .content span.pf-font {
   vertical-align: middle;
 }
 
@@ -333,19 +336,73 @@ section#jumbo {
   color: #FE775A;
 }
 
+/* MAIN - HUB-TYPES */
+#hub-types .content {
+  text-align: center;
+  padding: 20px 40px;
+}
+
+#hub-types .content img {
+  height: 80px;
+}
+
+#hub-types .content h3 {
+  margin: 10px 0;
+}
+
+#hub-types .content p {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#hub-types .content hr {
+  border: 1px solid #A6AEB1;
+  margin-bottom: 30px;
+}
+
+#hub-types .content ul {
+  list-style: none;
+  text-align: left;
+  font-size: 13px;
+  margin: 20px 0;
+}
+
+#hub-types .content ul i {
+  margin-right: 7px;
+  color: #FE775A;
+}
+
+#hub-types .content a {
+  display: inline-block;
+  margin-top: 10px;
+}
+
 /* MAIN - HUBSPOT-COMMUNITY */
-section#hubspot-community .no-space {
+#hubspot-community .content {
+  text-align: center;
+  color: #ffffff;
+}
+
+#hubspot-community .content.text {
+  padding: 40px 0;
+}
+
+#hubspot-community .content.text h2 {
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+
+#hubspot-community .no-space {
   font-size: 0;
 }
 
-section#hubspot-community {
+#hubspot-community {
   background-image: linear-gradient(45deg,#00a4bd,#00bda5);
 }
 
-section#hubspot-community .card {
+#hubspot-community .card {
   display: inline-block;
 }
-
 
 /* FOOTER */
 footer {
