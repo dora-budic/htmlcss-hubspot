@@ -104,6 +104,10 @@ body {
   margin-left: 20px;
 }
 
+.mt-20 {
+  margin-top: 20px;
+}
+
 .mt-30 {
   margin-top: 30px;
 }
@@ -112,8 +116,8 @@ body {
   margin-bottom: 40px;
 }
 
-.mb-60 {
-  margin-bottom: 60px;
+.mb-80 {
+  margin-bottom: 80px;
 }
 
 .border-b {
@@ -156,6 +160,12 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 14px;
+}
+
+.number-fnt {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 /* HEADER - FIXED MENU */
@@ -407,9 +417,6 @@ section#jumbo {
 
 #hubspot-community .card .content .number {
   display: inline-block;
-  font-size: 40px;
-  font-weight: bold;
-  text-transform: uppercase;
   vertical-align: middle;
   margin: 10px 0;
 }
@@ -422,6 +429,63 @@ section#jumbo {
 
 #hubspot-community .card .content .number-description {
   font-size: 10px;
+}
+
+/* MAIN - HUBSPOT-CUSTOMERS */
+#hubspot-customers .row:first-child {
+  padding-top: 30px;
+}
+
+#hubspot-customers .column.w-33 .content {
+  padding: 0 60px;
+}
+
+#hubspot-customers .column.w-33 p.p-font span {
+  font-weight: bold;
+}
+
+#hubspot-customers .column.w-67 {
+  padding-left: 100px;
+}
+
+#hubspot-customers .column.w-67 .logos img {
+  vertical-align: middle;
+}
+
+#hubspot-customers .column.w-67 .logos.group1 {
+  margin-bottom: 30px;
+}
+.w-19 {
+  width: 19%;
+  /* margin-right: 10px; */
+}
+
+.w-18 {
+  width: 18%;
+}
+
+.w-15 {
+  width: 15%;
+}
+
+.w-21 {
+  width: 21%;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+
+.ml-30 {
+  margin-left: 30px;
 }
 /* FOOTER */
 footer {
