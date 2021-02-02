@@ -424,47 +424,21 @@ section#jumbo {
   font-weight: bold;
 }
 
-#hubspot-customers .column.w-67 {
-  padding-left: 100px;
+#hubspot-customers .logos-container {
+  font-size: 0;
+  width: 80%;
+  margin: 0 auto;
 }
 
-#hubspot-customers .column.w-67 .logos img {
+#hubspot-customers .column.w-67 .logos {
+  width: 25%;
+  padding: 10px;
+  display: inline-block;
   vertical-align: middle;
 }
 
-#hubspot-customers .column.w-67 .logos.group1 {
-  margin-bottom: 30px;
-}
-.w-19 {
-  width: 19%;
-}
-
-.w-18 {
-  width: 18%;
-}
-
-.w-15 {
-  width: 15%;
-}
-
-.w-21 {
-  width: 21%;
-}
-
-.mr-10 {
-  margin-right: 10px;
-}
-
-.ml-10 {
-  margin-left: 10px;
-}
-
-.ml-15 {
-  margin-left: 15px;
-}
-
-.ml-30 {
-  margin-left: 30px;
+#hubspot-customers .column.w-67 .logos img {
+  width: 100%;
 }
 
 /* MAIN - HUBSPOT-CUSTOMERS, PART2 */
@@ -562,4 +536,8 @@ display: inline-block;
 position: absolute;
 top: 0;
 right: 0;
+}
+
+.pl-20 {
+  padding-left: 20px;
 }
