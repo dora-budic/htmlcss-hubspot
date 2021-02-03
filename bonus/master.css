@@ -1,0 +1,557 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #33475B;
+}
+
+/* LAYOUT */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+}
+
+.row {
+  margin: 0 -15px;
+}
+
+.column {
+  padding: 0 15px;
+}
+
+
+/* UTILITY */
+.w-25 {
+  width: calc(100% / 4);
+}
+.w-33 {
+  width: calc(100% / 3);
+}
+
+.w-50 {
+  width: calc(100% / 2);
+}
+
+.w-55 {
+  width: 55%;
+}
+
+.w-67 {
+  width: calc((100% / 3) * 2);
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.bg-lightblue {
+  background-color: #F4F9FD;
+}
+
+.bg-white {
+  background-color: #ffffff;
+  box-shadow: 0 0 4px rgba(0,0,0,0.3);
+  border-radius: 5px;
+}
+
+/* MARGINS */
+.ml-10 {
+  margin-left: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mtb-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mtb-30 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.ptb-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.border-b {
+  border-bottom: 1px solid #DADEE0;
+}
+
+.border-r {
+  border-right: 1px solid #ffffff;
+}
+
+/* BUTTONS */
+.btn {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.btn-white {
+  background-color: #ffffff;
+  color: #FE775A;
+  border: 1px solid #FE775A;
+}
+
+.btn-red {
+  background-color: #FE775A;
+  color: #ffffff;
+  border: none;
+}
+
+.btn-red.big {
+  font-size: 13px;
+  padding: 20px 40px;
+}
+
+.btn-footer {
+  border-radius: 5px;
+  padding: 8px 10px;
+  font-size: 11px;
+  background-color: #DADEE0;
+  color: #32495B;
+}
+
+/* TYPOGRAPHY */
+a {
+  text-decoration: none;
+  color: #33475B;
+}
+
+.p-font {
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.pf-font {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.number-fnt {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.no-space {
+  font-size: 0;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+/* HEADER - FIXED MENU */
+header nav {
+  font-size: 14px;
+}
+
+header .fixed-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #F4F9FD;
+  width: 100%;
+  line-height: 80px;
+  border-bottom: 2px solid #BFC6CA;
+}
+
+header .fixed-menu ul.left-list span {
+  padding-left: 5px;
+  border-right: 2px solid #BFC6CA;
+  margin-right: 5px;
+}
+
+header .fixed-menu i.fas.fa-chevron-down {
+  padding: 0 15px 0 5px;
+}
+
+nav ul {
+  display: inline-block;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+header nav .right-list, nav .menu-list {
+  float: right;
+}
+
+header nav .menu-list li, header nav .right-list li {
+  margin-left: 20px;
+}
+
+header .fixed-menu .right-list i{
+  color: #29B3C7;
+}
+
+/* HEADER - SECOND NAV */
+header nav.menu {
+  margin-top: 80px;
+  line-height: 80px;
+}
+
+header nav.menu img {
+  vertical-align: middle;
+}
+
+header nav.menu i {
+  padding-left: 10px;
+}
+
+/* HEADER - JUMBO */
+section#jumbo {
+  background-image: url('./img/jumbotron.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#jumbo .jumbo-text {
+  padding-top: 60px;
+  padding-bottom: 237px;
+}
+
+#jumbo .jumbo-text h1 {
+  font-size: 40px;
+}
+
+#jumbo .jumbo-text a {
+  display: inline-block;
+  margin: 40px 0;
+}
+
+#jumbo {
+  position: relative;
+}
+
+#jumbo .row.line {
+  margin: 0;
+}
+
+#jumbo .column.line {
+  padding: 0;
+  background-color: #AFEBE4;
+  height: 12%;
+  position: absolute;
+  bottom: 0;
+  border-top: 3px solid #33475C;
+  border-bottom: 3px solid #33475C;
+}
+
+/* MAIN - SLOGAN */
+#slogan {
+  text-align: center;
+}
+
+#slogan .content {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#slogan img {
+  width: 30%;
+}
+
+/* MAIN - FREE-HUBSPOT */
+#free-hubspot .container .content {
+  padding: 50px 0;
+}
+
+#free-hubspot .column .learn-more {
+  text-align: center;
+}
+
+#free-hubspot .column .learn-more img {
+  width: 45%;
+}
+
+#free-hubspot .column .learn-more a {
+  display: inline-block;
+}
+
+#free-hubspot .column.right {
+  padding-left: 0;
+}
+
+#free-hubspot .column.right .content p {
+  margin-bottom: 25px;
+}
+
+#free-hubspot .column.right .content span.pf-font {
+  vertical-align: middle;
+}
+
+#free-hubspot .column.right .content hr {
+  display: inline-block;
+  width: 66%;
+  vertical-align: middle;
+  margin-left: 52px;
+}
+
+#free-hubspot .column.right .content ul {
+  margin-top: 25px;
+}
+
+#free-hubspot .column.right .content ul li {
+  display: inline-block;
+}
+
+#free-hubspot .column.right ul li i {
+  margin-right: 7px;
+  color: #FE775A;
+}
+
+/* MAIN - HUB-TYPES */
+#hub-types .content {
+  text-align: center;
+  padding: 20px 40px;
+}
+
+#hub-types .content img {
+  height: 80px;
+}
+
+#hub-types .content hr {
+  border: 1px solid #A6AEB1;
+  margin-bottom: 30px;
+}
+
+#hub-types .content ul {
+  list-style: none;
+  text-align: left;
+  font-size: 13px;
+  margin: 20px 0;
+}
+
+#hub-types .content ul i {
+  margin-right: 7px;
+  color: #FE775A;
+}
+
+#hub-types .content a {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* MAIN - HUBSPOT-COMMUNITY */
+#hubspot-community {
+  background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+  padding-bottom: 80px;
+}
+
+#hubspot-community .content {
+  text-align: center;
+  color: #ffffff;
+}
+
+#hubspot-community .content.text h2 {
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+
+#hubspot-community .card {
+  display: inline-block;
+  padding: 20px 0;
+}
+
+#hubspot-community .card .content .number {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#hubspot-community .card .content i {
+  font-size: 12px;
+  vertical-align: middle;
+  margin-left: 3px;
+}
+
+#hubspot-community .card .content .number-description {
+  font-size: 10px;
+}
+
+/* MAIN - HUBSPOT-CUSTOMERS */
+#hubspot-customers .row:first-child {
+  padding-top: 30px;
+}
+
+#hubspot-customers .column.left .content {
+  width: 65%;
+  margin: 0 auto;
+}
+
+#hubspot-customers .column.left p.p-font span {
+  font-weight: bold;
+}
+
+#hubspot-customers .logos-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#hubspot-customers .logos-container .logos {
+  width: 25%;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#hubspot-customers .logos-container .logos img {
+  width: 100%;
+}
+
+/* MAIN - HUBSPOT-CUSTOMERS, PART2 */
+#hubspot-customers .content.growth {
+  width: 84%;
+}
+
+#hubspot-customers .content.growth a {
+  display: inline-block;
+}
+
+#hubspot-customers .content.picture img {
+  width: 50%;
+  float: right;
+}
+
+/* FOOTER */
+footer {
+  background-color: #32495B;
+}
+
+footer ul a {
+  color: #DADEE0;
+}
+
+footer .row:first-child {
+  padding-top: 30px;
+}
+
+footer .column.options span {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+footer .column.options ul:first-child {
+  list-style: none;
+  margin-top: 10px;
+}
+
+footer .column.options a.btn-footer {
+  display: inline-block;
+}
+
+footer .social-list, footer .languages-list, footer .privacy {
+  list-style: none;
+}
+
+footer .social-list li, footer .languages-list li, footer .privacy li {
+  display: inline-block;
+}
+
+footer .languages-list li {
+  padding-left: 30px;
+}
+
+footer .row .content.border-b {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+footer .social-list li {
+  margin-right: 20px;
+}
+
+footer .row:nth-child(2) {
+  margin-top: 90px;
+}
+
+footer .content.copyright {
+  position: relative;
+}
+
+footer .content.copyright img {
+  opacity: 0.6;
+}
+
+footer .content.copyright span {
+  color: #ffffff;
+}
+
+footer ul.privacy {
+display: inline-block;
+position: absolute;
+top: 0;
+right: 0;
+}
+
+footer .content.copyright .privacy li:last-child {
+  padding-left: 20px;
+}
+
+footer a.chat-box {
+  display: block;
+  width: 5%;
+  background-color: #425B76;
+  color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0,0,0,0.4);
+  padding: 20px 10px;
+  font-size: 25px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+}
+
+footer .chat {
+  height: 20px;
+}
+
+.chat i.left {
+  position: absolute;
+  top: 55%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  border: 2px solid #425B76;
+  border-radius: 5px;
+}
+
+.chat i.right {
+  position: absolute;
+  top: 45%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
